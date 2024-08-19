@@ -1,0 +1,117 @@
+body {
+    display: block;
+    overflow-x: hidden;
+    background-color: rgb(4, 4, 115);
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand img{
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(159, 157, 157);
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important;
+
+}
+
+#home-sec .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#home-sec .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+
+}
+
+#home-sec img {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+#aboutme-sec .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+
+}
+
+#aboutme-sec img {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+#skill-sec .col-md-4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#contact-sec {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#contact-sec h1 {
+    text-align: center;
+    color: white;
+
+}
+
+#contact-sec .img-col {
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+#contact-sec img {
+    max-width: 20% !important;
+    width: 20%;
+}

@@ -1,0 +1,33 @@
+:root {
+    /* violet */
+    --primary-color: 111, 76, 255;
+  
+    /* white */
+    --text-color: 256, 256, 256;
+  }
+
+.text-gradient {
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#index-sec .col-md-4{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#index-sec .card {
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#index-sec .col-sm-6 {
+    margin-top: 50px;
+}
+
+#vanta-canvas {
+    height: 100vh;
+}
